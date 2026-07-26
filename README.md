@@ -79,8 +79,7 @@ CREATE DATABASE feedback_db;
 
 
 ## Purpose
-
-This project was created as part of Java Full Stack training to gain hands-on experience with Spring MVC and database integration.
+This project was developed as part of Java Full Stack training to gain practical, hands-on experience in building web applications using Spring MVC, Hibernate, JSP, Servlets, and MySQL. It helped strengthen my understanding of MVC architecture, database integration, CRUD operations, and user authentication.
 
 ## Future Improvements
 
