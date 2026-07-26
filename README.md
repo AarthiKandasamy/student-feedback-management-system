@@ -75,7 +75,7 @@ CREATE DATABASE feedback_db;
 ![Update Employee](/Screenshots/admin.png)
 
 ### Admin Dashboard
-![Update Employee](/Screenshots/admin-dashnboard.png)
+![Update Employee](/Screenshots/admin-dashboard.png)
 
 
 ## Purpose
