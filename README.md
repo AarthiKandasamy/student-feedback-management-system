@@ -77,15 +77,15 @@ CREATE DATABASE feedback_db;
 ### Admin Dashboard
 ![Update Employee](/Screenshots/admin-dashboard.png)
 
-
 ## Purpose
-This project was developed as part of Java Full Stack training to gain practical, hands-on experience in building web applications using Spring MVC, Hibernate, JSP, Servlets, and MySQL. It helped strengthen my understanding of MVC architecture, database integration, CRUD operations, and user authentication.
+
+This project was developed as part of Java Full Stack training to gain practical, hands-on experience in building web applications using **Java, JSP, Servlets, Hibernate, and MySQL**. It helped strengthen my understanding of MVC architecture, database integration, CRUD operations, session management, and user authentication.
 
 ## Future Improvements
 
-- Migrate the application to Spring Boot
-- Develop RESTful APIs
-- Implement Spring Security for enhanced authentication and authorization
-- Add pagination and search functionality
-- Improve the UI/UX with modern frontend technologies
-- Add role-based access control (RBAC) for different users
+- Migrate the application to **Spring Boot**
+- Develop **RESTful APIs**
+- Implement **Spring Security** for enhanced authentication and authorization
+- Add **Pagination and Search** functionality
+- Improve UI/UX with modern frontend technologies
+- Add role-based access control for different users
