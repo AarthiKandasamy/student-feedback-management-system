@@ -1,0 +1,182 @@
+/* --- Google Font Import --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* --- Reset & Global Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #eef2f3 0%, #8e9eab 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    color: #2d3748;
+}
+
+/* --- Card Container --- */
+.form-container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 460px;
+    padding: 36px 32px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08), 
+                0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+/* --- Title Styling --- */
+.form-container h2 {
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 24px;
+    text-align: center;
+    position: relative;
+}
+
+/* Subtle accent line under title */
+.form-container h2::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 4px;
+    background: #2563eb;
+    border-radius: 2px;
+    margin: 8px auto 0 auto;
+}
+
+/* --- Form Layout & Labels --- */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* --- Input & Select Styles --- */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    color: #2d3748;
+    background-color: #f8fafc;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Custom dropdown arrow for Select element */
+select {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2064748b'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 18px;
+    padding-right: 38px;
+}
+
+/* --- Active Input Focus States --- */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    background-color: #ffffff;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+::placeholder {
+    color: #94a3b8;
+}
+
+/* --- Primary Register Button --- */
+button[type="submit"] {
+    margin-top: 8px;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+    transition: all 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.35);
+    transform: translateY(-1px);
+}
+
+button[type="submit"]:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+}
+
+/* --- Text Links & Navigation --- */
+.form-container p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+/* Back to Home Button Link */
+.form-container > a {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    padding: 10px;
+    font-size: 0.875rem;
+    color: #64748b;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.form-container > a:hover {
+    background-color: #e2e8f0;
+    color: #0f172a;
+    text-decoration: none;
+}
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 480px) {
+    .form-container {
+        padding: 28px 20px;
+    }
+}

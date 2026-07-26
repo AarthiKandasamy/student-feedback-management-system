@@ -1,0 +1,158 @@
+/* --- Google Font Import --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* --- Reset & Base Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #eef2f3 0%, #8e9eab 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #2d3748;
+}
+
+/* --- Card Container --- */
+.form-container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px 32px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08), 
+                0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+/* --- Heading Styling --- */
+.form-container h2 {
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: #0f172a; /* Dark slate for administrative authority tone */
+    margin-bottom: 24px;
+    text-align: center;
+    position: relative;
+}
+
+/* Subtle accent line under title */
+.form-container h2::after {
+    content: '';
+    display: block;
+    width: 44px;
+    height: 4px;
+    background: #0f172a;
+    border-radius: 2px;
+    margin: 8px auto 0 auto;
+}
+
+/* --- JSP Error Message Styling --- */
+.form-container p[style*="color:red;"] {
+    background-color: #fef2f2 !important;
+    color: #dc2626 !important;
+    border: 1px solid #fecaca;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* --- Form Layout --- */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* --- Inputs --- */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 13px 16px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    color: #2d3748;
+    background-color: #f8fafc;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Focus States (Active highlight) */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #ffffff;
+    border-color: #0f172a;
+    box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.12);
+}
+
+::placeholder {
+    color: #94a3b8;
+}
+
+/* --- Admin Primary Button --- */
+button[type="submit"] {
+    margin-top: 6px;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.25);
+    transition: all 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(135deg, #334155 0%, #1e293b 100%);
+    box-shadow: 0 6px 16px rgba(15, 23, 42, 0.35);
+    transform: translateY(-1px);
+}
+
+button[type="submit"]:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.2);
+}
+
+/* --- Remove Raw Line Breaks --- */
+.form-container br {
+    display: none;
+}
+
+/* --- Back to Home Link Button --- */
+.form-container > a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #64748b;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.form-container > a:hover {
+    background-color: #e2e8f0;
+    color: #0f172a;
+}
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 440px) {
+    .form-container {
+        padding: 30px 20px;
+    }
+}

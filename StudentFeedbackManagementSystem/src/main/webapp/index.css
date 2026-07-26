@@ -1,0 +1,126 @@
+/* --- Google Font Import --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* --- Reset & Base Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #eef2f3 0%, #8e9eab 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #2d3748;
+}
+
+/* --- Central Card Container --- */
+.container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 440px;
+    padding: 40px 32px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08), 
+                0 4px 6px rgba(0, 0, 0, 0.04);
+    text-align: center;
+}
+
+/* --- Main Heading --- */
+.container h1 {
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: #1a202c;
+    line-height: 1.3;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+/* Subtle blue underline indicator */
+.container h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #2563eb;
+    border-radius: 2px;
+    margin: 12px auto 0 auto;
+}
+
+/* --- Action Link Buttons --- */
+.container a {
+    display: block;
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.25 ease;
+}
+
+/* Primary Button Style (Student Registration) */
+.container a[href="student-register.jsp"] {
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
+.container a[href="student-register.jsp"]:hover {
+    background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.35);
+    transform: translateY(-2px);
+}
+
+/* Secondary Button Style (Student Login) */
+.container a[href="student-login.jsp"] {
+    background-color: #f1f5f9;
+    color: #1e293b;
+    border: 1.5px solid #cbd5e1;
+}
+
+.container a[href="student-login.jsp"]:hover {
+    background-color: #e2e8f0;
+    border-color: #94a3b8;
+    color: #0f172a;
+    transform: translateY(-2px);
+}
+
+/* Outline Accent Style (Admin Login) */
+.container a[href="admin-login.jsp"] {
+    background-color: transparent;
+    color: #475569;
+    border: 1.5px dashed #cbd5e1;
+}
+
+.container a[href="admin-login.jsp"]:hover {
+    background-color: #f8fafc;
+    border-color: #2563eb;
+    color: #2563eb;
+    transform: translateY(-2px);
+}
+
+/* --- Clean Up Old <br> Spacing --- */
+.container br {
+    display: none; /* Disables raw line breaks so CSS flex gaps/margins handle layout cleanly */
+}
+
+.container a + a {
+    margin-top: 14px;
+}
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 480px) {
+    .container {
+        padding: 32px 24px;
+    }
+
+    .container h1 {
+        font-size: 1.4rem;
+    }
+}
