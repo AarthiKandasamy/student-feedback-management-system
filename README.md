@@ -1,16 +1,30 @@
 # Student Feedback Management System
 
-A web-based Student Feedback Management System developed using Java Servlets, JSP, Hibernate ORM, MySQL, HTML, CSS, and JavaScript.
+## Overview
+
+This is a web-based Student Feedback Management System developed to collect and manage student feedback efficiently.
+
+Students can register, log in, and submit feedback about their courses. Administrators can log in to view and manage the submitted feedback.
 
 ## Features
 
-- Student registration
-- Student login
-- Submit course feedback
-- Feedback submission success page
-- Admin login
-- View student feedback
-- Delete feedback
+### Student Module
+
+- Student Registration
+- Student Login
+- Submit Course Feedback
+- Rate Teaching Quality
+- Rate Course Content
+- Rate Infrastructure
+- Add Comments
+- Feedback Submission Success Page
+
+### Admin Module
+
+- Admin Login
+- View Student Feedback
+- View Student Details
+- Delete Feedback Records
 
 ## Technologies Used
 
@@ -22,55 +36,21 @@ A web-based Student Feedback Management System developed using Java Servlets, JS
 - HTML
 - CSS
 - JavaScript
-- Apache Tomcat
+- Apache Tomcat 9
 - Eclipse IDE
 
 ## Project Structure
 
-```text
-StudentFeedbackManagementSystem
-│
-├── Java Resources
-│   └── src
-│       ├── hibernate.cfg.xml
-│       │
-│       └── com.feedback
-│           ├── entity
-│           │   ├── Student.java
-│           │   ├── Feedback.java
-│           │   └── Admin.java
-│           │
-│           ├── dao
-│           │   ├── StudentDAO.java
-│           │   ├── FeedbackDAO.java
-│           │   └── AdminDAO.java
-│           │
-│           ├── servlet
-│           │   ├── StudentRegisterServlet.java
-│           │   ├── StudentLoginServlet.java
-│           │   ├── FeedbackServlet.java
-│           │   ├── AdminLoginServlet.java
-│           │   ├── ViewFeedbackServlet.java
-│           │   └── DeleteFeedbackServlet.java
-│           │
-│           └── util
-│               └── HibernateUtil.java
-│
-├── WebContent
-│   ├── index.jsp
-│   ├── student-register.jsp
-│   ├── student-login.jsp
-│   ├── feedback.jsp
-│   ├── feedback-success.jsp
-│   ├── admin-login.jsp
-│   ├── admin-dashboard.jsp
-│   │
-│   ├── css
-│   │   └── style.css
-│   │
-│   ├── js
-│   │   └── validation.js
-│   │
-│   └── WEB-INF
-│
-└── README.md
+- Entity Layer
+- DAO Layer
+- Servlet Layer
+- Utility Layer
+- JSP View Layer
+- CSS and JavaScript
+
+## Database Setup
+
+Create the database in MySQL:
+
+```sql
+CREATE DATABASE feedback_db;
