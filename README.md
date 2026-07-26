@@ -53,6 +53,7 @@ Create the database in MySQL:
 
 ```sql
 CREATE DATABASE feedback_db;
+```
 ## Screenshots
 
 ### 🏠 Home Page
