@@ -54,3 +54,28 @@ Create the database in MySQL:
 
 ```sql
 CREATE DATABASE feedback_db;
+## Screenshots
+
+### 🏠 Home Page
+![Home Page](/Screenshots/Dashboard.png)
+
+### ➕ Add Employee
+![Add Employee](/Screenshots/AddEmployee.png)
+
+### 📋 Employee List
+![Employee List](/Screenshots/DisplayEmployee.png)
+
+### ✏️ Update Employee
+![Update Employee](/Screenshots/UpdateEmployee.png)
+
+
+## Purpose
+
+This project was created as part of Java Full Stack training to gain hands-on experience with Spring MVC and database integration.
+
+## Future Improvements
+
+- Spring Boot Migration
+- REST APIs
+- Spring Security
+- Pagination and Search
