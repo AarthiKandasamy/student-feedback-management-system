@@ -1,4 +1,4 @@
-# Student Feedback Management System
+#Student Feedback Management System
 
 ## Overview
 
@@ -57,7 +57,7 @@ CREATE DATABASE feedback_db;
 ## Screenshots
 
 ### 🏠 Home Page
-![Home Page](/Screenshots/Dashboard.png)
+![Home Page](/Screenshots/index.png)
 
 ### ➕ Add Employee
 ![Add Employee](/Screenshots/AddEmployee.png)
