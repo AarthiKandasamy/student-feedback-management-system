@@ -1,4 +1,4 @@
-#Student Feedback Management System
+<img width="995" height="616" alt="feedback-success" src="https://github.com/user-attachments/assets/9f9f629a-4f3f-4a89-a668-20dae8d0a5b1" />#Student Feedback Management System
 
 ## Overview
 
@@ -68,8 +68,8 @@ CREATE DATABASE feedback_db;
 ### FeedBack 
 ![FeedBack](/Screenshots/feedback.png)
 
-### ✏️ Update Employee
-![Update Employee](/Screenshots/UpdateEmployee.png)
+###  FeedBack Success
+![Update Employee](/Screenshots/feedback-success.png)
 
 ### ✏️ Update Employee
 ![Update Employee](/Screenshots/UpdateEmployee.png)
