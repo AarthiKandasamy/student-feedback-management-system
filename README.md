@@ -65,6 +65,12 @@ CREATE DATABASE feedback_db;
 ### Student Login
 ![student-login](/Screenshots/student-login.png)
 
+### FeedBack 
+![FeedBack](/Screenshots/feedback.png)
+
+### ✏️ Update Employee
+![Update Employee](/Screenshots/UpdateEmployee.png)
+
 ### ✏️ Update Employee
 ![Update Employee](/Screenshots/UpdateEmployee.png)
 
