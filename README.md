@@ -1,4 +1,4 @@
-<img width="995" height="616" alt="feedback-success" src="https://github.com/user-attachments/assets/9f9f629a-4f3f-4a89-a668-20dae8d0a5b1" />#Student Feedback Management System
+#Student Feedback Management System
 
 ## Overview
 
