@@ -59,8 +59,8 @@ CREATE DATABASE feedback_db;
 ### 🏠 Home Page
 ![Home Page](/Screenshots/index.png)
 
-### ➕ Add Employee
-![Add Employee](/Screenshots/AddEmployee.png)
+### ➕ 
+![Add Employee](/Screenshots/student-registration.png)
 
 ### 📋 Employee List
 ![Employee List](/Screenshots/DisplayEmployee.png)
