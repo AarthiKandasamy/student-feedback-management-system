@@ -71,8 +71,11 @@ CREATE DATABASE feedback_db;
 ###  FeedBack Success
 ![Update Employee](/Screenshots/feedback-success.png)
 
-### ✏️ Update Employee
-![Update Employee](/Screenshots/UpdateEmployee.png)
+### Admin Page
+![Update Employee](/Screenshots/admin.png)
+
+### Admin Dashboard
+![Update Employee](/Screenshots/admin-dashnboard.png)
 
 
 ## Purpose
