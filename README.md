@@ -83,9 +83,9 @@ This project was developed as part of Java Full Stack training to gain practical
 
 ## Future Improvements
 
-Migrate the application to Spring Boot
-Develop RESTful APIs
-Implement Spring Security for enhanced authentication and authorization
-Add Pagination and Search functionality
-Improve UI/UX with modern frontend technologies
-Add role-based access control for different users
+-Migrate the application to Spring Boot
+-Develop RESTful APIs
+-Implement Spring Security for enhanced authentication and authorization
+-Add Pagination and Search functionality
+-Improve UI/UX with modern frontend technologies
+-Add role-based access control for different users
