@@ -38,7 +38,6 @@ Students can register, log in, and submit feedback about their courses. Administ
 - JavaScript
 - Apache Tomcat 9
 - Eclipse IDE
-
 ## Project Structure
 
 - Entity Layer
